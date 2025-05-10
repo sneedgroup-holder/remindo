@@ -1,3 +1,3 @@
-# Remindo
+# ⏰ Remindo
 
 Reminded. Simply.
