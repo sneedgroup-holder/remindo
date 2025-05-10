@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 24px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+input[type="text"], input[type="time"], select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+button {
+    padding: 10px;
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #2563eb;
+}
+#reminders-list {
+    list-style: none;
+    padding: 0;
+}
+.reminder-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f4fa;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.reminder-text {
+    flex: 1;
+    color: #222;
+}
+.done {
+    text-decoration: line-through;
+    color: #aaa;
+}
+.mark-done-btn {
+    background: #22c55e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 0.95rem;
+}
+.mark-done-btn:hover {
+    background: #15803d;
+} 

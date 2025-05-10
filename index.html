@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remindo - Reminders App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Remindo</h1>
+        <form id="reminder-form">
+            <input type="text" id="reminder-text" placeholder="What do you need to do?" required maxlength="100">
+            <input type="time" id="reminder-time" required>
+            <select id="repeat-type">
+                <option value="none">No Repeat</option>
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+            </select>
+            <div id="repeat-options"></div>
+            <button type="submit">Add Reminder</button>
+        </form>
+        <ul id="reminders-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
